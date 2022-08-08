@@ -21,6 +21,7 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-Java
 function giveCompliment(name) {
   const compliment = ['great', 'awesome','good','very good', 'excellent', 'clever','genius','nice','friendly','lovely'];
   return `you are ${compliment[Math.floor(Math.random() * compliment.length)]}, ${name} !`;
+  
 }
 
 
