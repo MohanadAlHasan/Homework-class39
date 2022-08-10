@@ -1,0 +1,56 @@
+{
+  "node": "v16.16.0",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookAir7,2"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-5250U",
+    "speed": 1.6
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "12.5"
+  },
+  "vscodeInfo": {
+    "version": "1.69.2",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-footnotes",
+      "bierner.markdown-mermaid",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "christian-kohler.path-intellisense",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "ecmel.vscode-html-css",
+      "EditorConfig.EditorConfig",
+      "esbenp.prettier-vscode",
+      "firefox-devtools.vscode-firefox-debug",
+      "idleberg.icon-fonts",
+      "oderwat.indent-rainbow",
+      "PKief.material-icon-theme",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker"
+    ],
+    "userSettings": {
+      "window.zoomLevel": 1,
+      "editor.formatOnSave": true,
+      "liveServer.settings.donotShowInfoMsg": true,
+      "editor.detectIndentation": false,
+      "files.autoSave": "onFocusChange",
+      "editor.minimap.enabled": false,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {},
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.guides.bracketPairs": true
+    }
+  }
+}
