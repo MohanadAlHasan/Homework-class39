@@ -1,0 +1,8 @@
+
+*** Spell Checker Report ***
+
+ex3-tellFortune.js:52:33 - Unknown word (Wouter)
+ex3-tellFortune.js:52:43 - Unknown word (Tjebbe)
+ex3-tellFortune.js:52:53 - Unknown word (Mohanad)
+ex3-tellFortune.js:52:64 - Unknown word (Rame)
+ex3-tellFortune.js:54:36 - Unknown word (Zoetermeer)

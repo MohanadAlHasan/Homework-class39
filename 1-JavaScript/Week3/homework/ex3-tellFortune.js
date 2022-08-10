@@ -43,18 +43,23 @@ function tellFortune(children, partner, location, job) {
   const randomPartner = selectRandomly(partner);
   const randomLocation = selectRandomly(location);
   const randomJob = selectRandomly(job);
-  return `You will be a ${randomJob} in ${randomLocation}, 
-  married to ${randomPartner} with ${randomChild} kids.`;
+  return `You will be a ${randomJob} in ${randomLocation}, married to ${randomPartner} with ${randomChild} kids.`;
 }
 
 function main() {
-  const numKids = [5, 2, 3, 4];
+  const numKids = [5, 2, 3, 4, 5];
 
-  const partnerNames = ['Rob', 'Wouter', 'Tjebbe', 'Mohanad'];
+  const partnerNames = ['Rob', 'Wouter', 'Tjebbe', 'Mohanad', 'Rame'];
 
-  const locations = ['Amsterdam', 'Zoetermeer', 'den Hag', 'Utrecht'];
+  const locations = ['Amsterdam', 'Zoetermeer', 'den Hag', 'Utrecht', 'Gouda'];
 
-  const jobTitles = ['Engineer', 'Web developer', 'Teacher', 'singer'];
+  const jobTitles = [
+    'Engineer',
+    'Web developer',
+    'Teacher',
+    'singer',
+    'pharmacist',
+  ];
 
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

@@ -121,3 +121,91 @@ ex1-giveCompliment.js:46:21 - Unknown word (Mohanad)
 
 ex1-giveCompliment.js:46:21 - Unknown word (Mohanad)
 
+2022-08-10 11:01:23 info: ----------------------------------------
+2022-08-10 11:01:23 info: >>> Running Unit Test `ex2-dogYears` <<<
+2022-08-10 11:01:23 info: ----------------------------------------
+2022-08-10 11:01:28 info: All unit tests passed.
+2022-08-10 11:01:34 info: All steps were completed successfully
+2022-08-10 11:01:53 info: -------------------------------------------
+2022-08-10 11:01:53 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-10 11:01:53 info: -------------------------------------------
+2022-08-10 11:01:58 error: *** Unit Test Error Report ***
+
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Engineer in Amsterdam, married to Rob with 5 kids.
+  Received: You will be a Engineer in Amsterdam, 
+  married to Rob with 5 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="/Users/hackyourfuture/hy-future-exercises/javascript/Homework-class39/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-10 11:02:04 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:53:33 - Unknown word (Wouter)
+ex3-tellFortune.js:53:43 - Unknown word (Tjebbe)
+ex3-tellFortune.js:53:53 - Unknown word (Mohanad)
+ex3-tellFortune.js:55:36 - Unknown word (Zoetermeer)
+
+2022-08-10 11:05:54 info: -------------------------------------------
+2022-08-10 11:05:54 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-10 11:05:54 info: -------------------------------------------
+2022-08-10 11:06:01 error: *** Unit Test Error Report ***
+
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Engineer in Amsterdam, married to Rob with 5 kids.
+  Received: You will be a Engineer in Amsterdam, 
+  married to Rob with 5 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="/Users/hackyourfuture/hy-future-exercises/javascript/Homework-class39/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-10 11:06:07 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:53:33 - Unknown word (Wouter)
+ex3-tellFortune.js:53:43 - Unknown word (Tjebbe)
+ex3-tellFortune.js:53:53 - Unknown word (Mohanad)
+ex3-tellFortune.js:53:64 - Unknown word (Rame)
+ex3-tellFortune.js:55:36 - Unknown word (Zoetermeer)
+
+2022-08-10 11:07:57 info: -------------------------------------------
+2022-08-10 11:07:57 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-10 11:07:57 info: -------------------------------------------
+2022-08-10 11:08:06 error: *** Unit Test Error Report ***
+
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a Engineer in Amsterdam, married to Rob with 5 kids.
+  Received: You will be a Engineer in Amsterdam,married to Rob with 5 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="/Users/hackyourfuture/hy-future-exercises/javascript/Homework-class39/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-08-10 11:08:14 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:52:33 - Unknown word (Wouter)
+ex3-tellFortune.js:52:43 - Unknown word (Tjebbe)
+ex3-tellFortune.js:52:53 - Unknown word (Mohanad)
+ex3-tellFortune.js:52:64 - Unknown word (Rame)
+ex3-tellFortune.js:54:36 - Unknown word (Zoetermeer)
+
+2022-08-10 11:08:34 info: -------------------------------------------
+2022-08-10 11:08:34 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-10 11:08:34 info: -------------------------------------------
+2022-08-10 11:08:39 info: All unit tests passed.
+2022-08-10 11:08:45 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:52:33 - Unknown word (Wouter)
+ex3-tellFortune.js:52:43 - Unknown word (Tjebbe)
+ex3-tellFortune.js:52:53 - Unknown word (Mohanad)
+ex3-tellFortune.js:52:64 - Unknown word (Rame)
+ex3-tellFortune.js:54:36 - Unknown word (Zoetermeer)
+
