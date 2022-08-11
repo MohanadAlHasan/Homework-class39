@@ -18,8 +18,8 @@ it pure. Do the following:
 // ! Function under test
 function addToShoppingCart(arr, grocery) {
   const shoppingCart = [...arr];
-  if (grocery === undefined) {
-    return arr;
+  if (grocery) {
+    shoppingCart.push(grocery);
   }
 
   if (shoppingCart.length > 3) {
