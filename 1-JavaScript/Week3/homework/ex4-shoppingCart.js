@@ -24,9 +24,10 @@ const shoppingCart = ['bananas', 'milk'];
 
 // ! Function to be tested
 function addToShoppingCart(grocery) {
-  if (grocery === undefined) {
-    return `You bought ${shoppingCart.join(', ')}!`;
-  } else shoppingCart.push(grocery);
+  if (grocery) {
+    shoppingCart.push(grocery);
+  }
+
   if (shoppingCart.length > 3) {
     shoppingCart.shift();
   }
