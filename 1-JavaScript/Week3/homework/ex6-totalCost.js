@@ -22,10 +22,10 @@ instead!
 -----------------------------------------------------------------------------*/
 const cartForParty = {
   cola: 2,
-  beer: 0.99,
+  beer: 0.5,
   chocolate: 1.5,
   chips: 1,
-  ice: 1.18,
+  ice: 2.5,
 };
 
 function calculateTotalPrice(obj) {
@@ -40,12 +40,16 @@ function calculateTotalPrice(obj) {
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
-  console.assert(calculateTotalPrice(cartForParty));
+  const expected = 1;
+  const actual = calculateTotalPrice.length;
+  console.assert(expected === actual);
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  // TODO replace this comment with your code
+  const expectedTotal = 7.5;
+  const actualTotal = calculateTotalPrice(cartForParty);
+  console.assert(expectedTotal === actualTotal);
 }
 
 function test() {
