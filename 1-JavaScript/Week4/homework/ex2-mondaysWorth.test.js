@@ -33,7 +33,7 @@ const hourlyRate = 25;
 let total = 0;
 
 function computeEarnings(mondayTasks, hourlyRate) {
-  mondayTasks.array.forEach((task) => {
+  mondayTasks.forEach((task) => {
     if (task.duration) {
       total += (task.duration * hourlyRate) / 60;
     }
